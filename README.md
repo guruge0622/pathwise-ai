@@ -120,7 +120,7 @@ The project will be completed within 16 weeks including:
 
 ##  Academic Purpose
 
-This project is developed as part of the Skill Development Project / Mobile Application Development module at General Sir John Kotelawala Defence University.
+This project is developed as part of the Mobile Application Development module at General Sir John Kotelawala Defence University.
 
 ---
 
