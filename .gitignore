@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+# Miscellaneous
+*.class
+*.lock
 # Miscellaneous
 *.class
 *.lock
@@ -7,7 +11,16 @@
 .buildlog/
 .history
 
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
 
 # Flutter repo-specific
 /bin/cache/
@@ -87,12 +100,18 @@ unlinked_spec.ds
 **/ios/ServiceDefinitions.json
 **/ios/Runner/GeneratedPluginRegistrant.*
 
+# generated native folders (expo/React Native)
+/ios
+/android
+
 # macOS
 **/Flutter/ephemeral/
 **/Pods/
 **/macos/Flutter/GeneratedPluginRegistrant.swift
 **/macos/Flutter/ephemeral
 **/xcuserdata/
+.DS_Store
+*.pem
 
 # Windows
 **/windows/flutter/generated_plugin_registrant.cc
@@ -110,6 +129,28 @@ coverage/
 # Symbols
 app.*.symbols
 
+# Native
+.kotlin/
+*.orig.*
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
 # Exceptions to above rules.
 !**/ios/**/default.mode1v3
 !**/ios/**/default.mode2v3
@@ -117,3 +158,4 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
+/ios
